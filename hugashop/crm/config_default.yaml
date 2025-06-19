@@ -1,0 +1,44 @@
+# database
+database:
+  driver: mysql
+  server:
+  user:
+  password:
+  name:
+  prefix: s_ # Префикс для таблиц
+  charset: UTF8mb4 # Кодировка базы данных, Для отображения Emoji используем UTF8mb4
+  collation: utf8mb4_unicode_ci
+  sql_mode:
+
+# Соль для защиты данных
+salt:
+salt_psw:
+
+# Префикс для COOKIE
+cookie_prefix: HS_
+
+# reCAPTCHA
+recaptcha:
+  public_key:
+  private_key:
+
+# OpenAI
+openai:
+  key:
+
+# php
+php:
+  error_reporting: E_ALL
+  debug: true
+
+# smarty
+smarty:
+  compile_check: true
+  caching: false
+  cache_lifetime: 0
+  html_minify: true
+  debugging: false
+
+# Upload Image settings
+images_max_size: 1920
+images_quality: 85
